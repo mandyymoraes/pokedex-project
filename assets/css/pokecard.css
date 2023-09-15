@@ -1,0 +1,252 @@
+.normal {
+    background-color: #a6a877;
+}
+
+.grass {
+    background-color: #77c850;
+}
+
+.fire {
+    background-color: #ee7f30;
+}
+
+.water {
+    background-color: #678fee;
+}
+
+.electric {
+    background-color: #f7cf2e;
+}
+
+.ice {
+    background-color: #98d5d7;
+}
+
+.ground {
+    background-color: #dfbf69;
+}
+
+.flying {
+    background-color: #a98ff0;
+}
+
+.poison {
+    background-color: #a040a0;
+}
+
+.fighting {
+    background-color: #bf3029;
+}
+
+.psychic {
+    background-color: #f65687;
+}
+
+.dark {
+    background-color: #725847;
+}
+
+.rock {
+    background-color: #b8a137;
+}
+
+.bug {
+    background-color: #a8b720;
+}
+
+.ghost {
+    background-color: #6e5896;
+}
+
+.steel {
+    background-color: #b9b7cf;
+}
+
+.dragon {
+    background-color: #6f38f6;
+}
+
+.fairy {
+    background-color: #f9aec7;
+}
+.red{
+    color: red;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #EFFCD5;
+}
+
+.pokemon_content {
+    padding: 1rem;
+    height: 100vh;
+    width: 100vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 2rem auto;
+    border-radius: 1rem;
+
+}
+
+@media screen and (max-width: 480px) {
+    .pokemon_content {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pokemon_content {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        height: auto;
+        max-width: 700px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .pokemon_content {
+        max-width: 1000px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        height: auto;
+    }
+}
+
+.pokemon_header .icons,
+.pokemon_header .info-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.info-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#icon-heart {
+    color: white;
+}
+
+.pokemon_header .icon-arrow,
+.pokemon_header .icon-heart {
+    margin: 3rem 1rem;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.info-header .icon-arrow:hover,
+.info-header .icon-heart:hover {
+    cursor: pointer;
+}
+
+.info-header .number {
+    font-size: 1.5rem;
+    color: white;
+    margin-right: 2rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+}
+
+.info-header .pokemon_name {
+    font-size: 2.5rem;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 0 2rem;
+}
+
+.type-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.pokemon_type {
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid rgba(242, 241, 239);
+    color: #f9f9f9;
+    margin: 0 1rem;
+
+
+
+}
+
+.pokemon_content .pokemon_image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pokemon_image img {
+    width: 300px;
+}
+
+.pokemon_content .about_pokemon {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    -webkit-text-stroke-width: 0.5px;
+}
+.line{
+    width: 10%;
+    height: 2px;
+    background-color: #37A5C6;
+    margin: 10px 0;
+}
+.about_pokemon .info, .about_pokemon .breeding_info{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.labels{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: #828282;
+}
+.label {
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-transform: capitalize;
+    margin-right:60%;
+
+}
+.input{
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    -webkit-text-stroke-width: 0.5px;
+    font-weight: 400;
+}

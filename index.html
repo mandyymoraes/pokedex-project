@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/img/pokeball-favicon.png" type="image/x-icon">
+
+    <!-- CSS - Normalize CSS -->
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/pokedex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&family=Poppins:wght@400;500;600&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&family=Poppins:wght@400;500;600&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+
+    <title>Pokedex</title>
+</head>
+
+<body>
+    <div id="container">
+        <section class="content">
+            <div class="header">
+                <h1>Pokedex</h1>
+                <img id="pokeball" src="./assets/img/pokeball-background.png" alt="">
+            </div>
+                
+            <ol class="pokemon-list" id="pokemon-list">
+
+            </ol>
+
+            <div class="pagination">
+                <button type="button" id="next-page">More Pokemons!</button>
+            </div>
+        </section>
+    </div>
+    <script src="./assets/js/model.js"></script>
+    <script src="./assets/js/pokeAPI.js"></script>
+    <script src="./assets/js/index.js"></script>
+
+
+</body>
+
+</html>
