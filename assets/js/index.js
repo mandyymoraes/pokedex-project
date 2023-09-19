@@ -4,7 +4,7 @@
 // }
 const pokemon_list = document.getElementById('pokemon-list');
 const pag_button = document.getElementById("next-page");
-const limit = 10;
+const limit = 3;
 let offset = 0;
 const maxPokemon = 1281;
 
