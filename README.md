@@ -1,5 +1,5 @@
 <h1>
-<center><img src="./assets/img/pokeball-favicon.png" width="50" height="50"></img> 
+<center><img src="./assets/img/pokeball-favicon.png" width="25" height="25"></img> 
 <center><center>Pokedex Project</center>
 </h1>
 
