@@ -1,76 +1,134 @@
 .normal {
     background-color: #a6a877;
 }
+.normalColor{
+    color: #a6a877;
+}
 
 .grass {
+    background-color: #77c850;
+}
+.grassColor{
     background-color: #77c850;
 }
 
 .fire {
     background-color: #ee7f30;
 }
+.fireColor{
+    color: #ee7f30;
+}
 
 .water {
     background-color: #678fee;
+}
+.waterColor{
+    color: #678fee;
 }
 
 .electric {
     background-color: #f7cf2e;
 }
+.electricColor{
+   color: #f7cf2e; 
+}
 
 .ice {
     background-color: #98d5d7;
+}
+.iceColor{
+    color: #98d5d7;
 }
 
 .ground {
     background-color: #dfbf69;
 }
+.groundColor{
+    color:#dfbf69 ;
+}
 
 .flying {
     background-color: #a98ff0;
+}
+.flyingColor{
+    color: #a98ff0;
 }
 
 .poison {
     background-color: #a040a0;
 }
+.poisonColor{
+    color: #a040a0;
+}
 
 .fighting {
     background-color: #bf3029;
+}
+.fightingColor{
+    color:#bf3029 ;
 }
 
 .psychic {
     background-color: #f65687;
 }
+.psychicColor{
+    color: #f65687;
+}
 
 .dark {
     background-color: #725847;
+}
+.darkColor{
+    color: #725847;
 }
 
 .rock {
     background-color: #b8a137;
 }
-
+.rockColor{
+    color:#b8a137;
+}
 .bug {
     background-color: #a8b720;
+}
+.bugColor{
+    color:#a8b720 ;
 }
 
 .ghost {
     background-color: #6e5896;
 }
+.ghostColor{
+    color: #6e5896;
+}
 
 .steel {
     background-color: #b9b7cf;
+}
+.steelColor{
+    color: #b9b7cf;
 }
 
 .dragon {
     background-color: #6f38f6;
 }
-
+.dragonColor{
+    color: #6f38f6;
+}
 .fairy {
     background-color: #f9aec7;
 }
+.fairyColor{
+    color: #f9aec7;
+}
 .red{
     color: red;
+}
+.female{
+    color: #e76f51;
+}
+.male{
+    color: #0077b6;
 }
 
 
@@ -133,7 +191,7 @@ body {
 }
 
 #icon-heart {
-    color: white;
+    color:#ae2012 ;
 }
 
 .pokemon_header .icon-arrow,
@@ -155,11 +213,12 @@ body {
     margin-right: 2rem;
     letter-spacing: 2px;
     font-weight: bold;
+    margin-top: 10px;
 
 }
 
 .info-header .pokemon_name {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     color: white;
     text-transform: capitalize;
     font-weight: bold;
@@ -180,11 +239,9 @@ body {
     padding: 0.25rem 1rem;
     border-radius: 1rem;
     margin: 0.5rem 0;
-    border: 1px solid rgba(242, 241, 239);
+    border: 1px solid #f7ede2;
     color: #f9f9f9;
     margin: 0 1rem;
-
-
 
 }
 
@@ -243,8 +300,16 @@ body {
     margin-right:60%;
 
 }
+.abilities{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+}
+.abilities :last-child{
+    margin-left: 0.5rem;
+}
 .input{
-    margin-top: 1.5rem;
+    margin-top: 1.2rem;
     font-size: 1.2rem;
     letter-spacing: 1px;
     -webkit-text-stroke-width: 0.5px;
